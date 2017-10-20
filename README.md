@@ -7,12 +7,12 @@ Isi dari Variabel dapat berubah-ubah selama proses program. Suatu variable dalam
 
 ### Aturan Penamaan Variabel 
 
-* Setiap nama variabel PHP didahului dengan tanda $.
-* Nama variabel PHP hanya terdiri dari karakter (A-z), angka (0-9), dan underscore (_).
-* Nama variabel PHP harus didahului dengan karakter (A-z) atau underscore (_) dan tidak bo;eh didahului dengan angka (0-9).
+* Setiap nama variabel PHP didahului dengan tanda `$` .
+* Nama variabel PHP hanya terdiri dari karakter (A-z), angka (0-9), dan underscore.
+* Nama variabel PHP harus didahului dengan karakter (A-z) atau underscore dan tidak boleh didahului dengan angka (0-9).
 * Nama variabel PHP bersifat 'case-senstive', yaitu ada berpedaan antara huruf besar A dengan huruf kecil a ($nama berbeda dengan $Nama, berbeda dengan $NAMA.
-* Data yang ditunjukkan ke variabel PHP dapat berupa nilai (misalnya: $x = 5) atau berupa ekspresi (misalnya: $x = $y + $z).
-* Jika nilai variabel berupa suatu teks (string), tambahkan tanda kutip untuk mengapit nilai tersebut. (misalnya $x = "Ini nilai berupa teks".
+* Data yang ditunjukkan ke variabel PHP dapat berupa nilai (misalnya: `$x = 5`) atau berupa ekspresi (misalnya: `$x = $y + $z`).
+* Jika nilai variabel berupa suatu teks (string), tambahkan tanda kutip untuk mengapit nilai tersebut. (misalnya `$x = "Ini nilai berupa teks"`.
 
 ### Jenis Variabel Berdasarkan Cakupannya
 
@@ -29,7 +29,7 @@ $dhezign = 1;
 
 ### Link Belajar
 
-*[Variabel PHP](http://m261an.com/belajar-php/PHPa_VariabelKonstanta.php)
+* [Variabel PHP](http://m261an.com/belajar-php/PHPa_VariabelKonstanta.php)
 
 
 ## 2. Konstanta
@@ -48,7 +48,7 @@ echo saya;
 ```
 
 * Menggunakan Fungsi `define()`
-Mendefinisikan konstanta menggunakan fungsi define() maka membutuhkan dua nilai yaitu nama konstanta dan nilainya.
+Mendefinisikan konstanta menggunakan fungsi `define()` maka membutuhkan dua nilai yaitu nama konstanta dan nilainya.
 
 ```php
 <?php
@@ -86,8 +86,8 @@ Pada contoh diatas `$a` merupakan ekspresi yang bernilai `3` sedangkan `3` merup
 Dalam bentuk yang kompleks ekspresi melibatkan operator dan operand.
 
 `10 + 2 * 5`
-Contoh tersebut merupakan sebuah bentuk dari ekspresi yang menghasilkan nilai 20, dimana 10, 2 dan 5 merupakan operand (nilai asal dalam sebuah operasi) dan tanda + dan * merupakan operator.
+Contoh tersebut merupakan sebuah bentuk dari ekspresi yang menghasilkan nilai `20`, dimana `10`, `2` dan `5` merupakan operand (nilai asal dalam sebuah operasi) dan tanda `+` dan `*` merupakan operator.
 
 ### Link Belajar
 
-*[Eskpresi pada PHP](http://puroza.blogspot.co.id/2013/04/ekspresi-dasar-pemrograman-php.html#.WemeevmCy00)
+* [Eskpresi pada PHP](http://puroza.blogspot.co.id/2013/04/ekspresi-dasar-pemrograman-php.html#.WemeevmCy00)
