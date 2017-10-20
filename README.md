@@ -37,13 +37,13 @@ $dhezign = 1;
 __Konstanta (constant)__ adalah suatu lokasi penyimpanan (dalam memory) yang berisikan nilai yang sifatnya tetap dan tidak bisa diubah sepanjang program berjalan.
 Cara penamaan konstanta sama seperti variable yaitu diawali dengan huruf atau underscore untuk karakter pertama, kemudian boleh diikuti dengan huruf, underscore atau angka untuk karakter kedua dan selanjutnya.
 ### Cara Pendefisian Konstanta
-* Menggunakan Keyword `cost`
+* Menggunakan Keyword `const`
 Pendefinisian konstanta menggunakan keyword const hanya dapat digunakan pada top-level scope, yakni harus dalam lingkungan global PHP. 
 Sehingga kita tidak bisa menggunakan const di dalam function, loop, atau kondisi if.
 
 ```php
 <?php 
-cost saya = "developer";
+const saya = "developer";
 echo saya;
 ```
 
