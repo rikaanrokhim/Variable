@@ -21,7 +21,6 @@ Isi dari Variabel dapat berubah-ubah selama proses program. Suatu variable dalam
 * Variabel Super-global:dapat berlaku di dalam maupun diluar fungsi PHP.
 
 ```php
-<?php
 $_var = "dhezign";
 $var = "dhezign";
 $dhezign = 1;
@@ -42,7 +41,6 @@ Pendefinisian konstanta menggunakan keyword const hanya dapat digunakan pada top
 Sehingga kita tidak bisa menggunakan const di dalam function, loop, atau kondisi if.
 
 ```php
-<?php 
 const saya = "developer";
 echo saya;
 ```
@@ -51,7 +49,6 @@ echo saya;
 Mendefinisikan konstanta menggunakan fungsi `define()` maka membutuhkan dua nilai yaitu nama konstanta dan nilainya.
 
 ```php
-<?php
 define("saya", "developer");
 echo saya;
 ```
