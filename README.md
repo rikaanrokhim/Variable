@@ -29,7 +29,7 @@ $dhezign = 1;
 
 ### Link Belajar
 
-*[Variabel PHP](http://m261an.com/belajar-php/PHPa_VariabelKonstanta.php)
+* [Variabel PHP](http://m261an.com/belajar-php/PHPa_VariabelKonstanta.php)
 
 
 ## 2. Konstanta
