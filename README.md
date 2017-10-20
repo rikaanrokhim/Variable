@@ -42,7 +42,7 @@ Sehingga kita tidak bisa menggunakan const di dalam function, loop, atau kondisi
 
 ```php
 const saya = "developer";
-echo saya;
+    echo saya;
 ```
 
 * Menggunakan Fungsi `define()`
@@ -50,7 +50,7 @@ Mendefinisikan konstanta menggunakan fungsi `define()` maka membutuhkan dua nila
 
 ```php
 define("saya", "developer");
-echo saya;
+    echo saya;
 ```
 
 ### Bersifat Case Sensitif
